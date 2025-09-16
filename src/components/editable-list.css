@@ -1,0 +1,20 @@
+.editable-list {
+  width: 500px;
+  padding: 10px;
+}
+
+.editable-list input {
+  display: inline;
+  border-radius: 10px;
+  height: 20px;
+  width: 250px;
+}
+
+.editable-list li {
+  display: inline;
+}
+
+.editable-list button {
+  border: none;
+  background-color: white;
+}
