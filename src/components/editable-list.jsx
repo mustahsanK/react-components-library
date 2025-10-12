@@ -21,7 +21,7 @@ export default function EditableList() {
 
   const itemList = items.map((item) => (
     <div className="item-class">
-      <li key={item}>{item}</li>
+      <li key={item + Math.random()}>{item}</li>
       <button onClick={() => handleDeleteItem(item)}>❌</button>
     </div>
   ));

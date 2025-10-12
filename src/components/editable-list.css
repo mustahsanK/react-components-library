@@ -10,7 +10,11 @@
   width: 250px;
 }
 
-.editable-list li {
+.editable-list ul {
+  padding-left: 10px;
+}
+
+.editable-list ul li {
   display: inline;
 }
 
