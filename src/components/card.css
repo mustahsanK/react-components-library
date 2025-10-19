@@ -1,0 +1,22 @@
+.card {
+  border-radius: 20px;
+  background-color: lightslategrey;
+  overflow: clip;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card-title {
+  width: auto;
+  padding: 10px 10px 0px 10px;
+  font-size: 200%;
+  color: white;
+}
+
+.card-desc {
+  width: auto;
+  padding: 10px;
+  color: white;
+}
